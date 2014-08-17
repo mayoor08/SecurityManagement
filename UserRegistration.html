@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Security Management | User Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/user.css">
+    </head>
+    <body>
+        <div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="v-model">Vehicle Model</label>
+                <input type="text" name="v-model" id="v-model">
+            </div>
+            <div>
+                <label for="v-regno">Vehicle No.</label>
+                <input type="text" name="v-regno" id="v-regno">
+            </div>
+            <div>    
+                <label for="v-type">Vehicle Type</label>
+                <input type="text" name="v-type" id="v-type">
+            </div>
+            <div>
+                <label for="house">House</label>
+                <input type="text" name="house" id="house">
+            </div>
+            <div>
+                <button id="save">Save User</button>
+            </div>
+            
+             <div>
+                <label for="search">search</label>
+                <input type="text" name="search" id="search">
+            </div>
+            <div>
+                <button id="delete">delete User</button>
+            </div>
+        </div>
+        <div>
+            <input type="text" id="search-vehicle">
+            <span id="reg-verified" class="not-verified">Verified</span>
+            <button type="button" class="not-verified" id="user-status">IN</button>
+        </div>
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
